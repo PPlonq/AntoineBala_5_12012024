@@ -210,8 +210,18 @@ header {
     transform: translateY(-50%);
     width: 30px;
     height: 30px;
-    background-color: rgba(255, 255, 255, 0.7);
+    font-size: 22px;
+    color: white;
     cursor: pointer;
+    background: #28363d85;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#banner .arrow:hover {
+    background: #28363d;
 }
 
 #banner .arrow_left {
@@ -220,6 +230,7 @@ header {
 #banner .arrow_right {
     right: 10px;
 }
+
 /* Gestion des points du carrousel */
 .dots {
     position: absolute;
